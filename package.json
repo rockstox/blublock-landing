@@ -1,29 +1,35 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "BluBlock",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "An NFT Licensing Company",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Hunter Davis <hunter@blublock.xyz>",
   "dependencies": {
+    "@fontsource/ibm-plex-mono": "^4.5.10",
+    "@fontsource/montserrat": "^4.5.11",
     "gatsby": "^4.15.2",
     "gatsby-plugin-gatsby-cloud": "^4.15.0",
     "gatsby-plugin-image": "^2.15.1",
     "gatsby-plugin-manifest": "^4.15.1",
     "gatsby-plugin-offline": "^5.15.1",
     "gatsby-plugin-react-helmet": "^5.15.0",
+    "gatsby-plugin-sass": "^5.15.1",
     "gatsby-plugin-sharp": "^4.15.1",
     "gatsby-source-filesystem": "^4.15.0",
     "gatsby-transformer-sharp": "^4.15.1",
+    "gsap": "^3.10.4",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "sass": "^1.52.2",
+    "three": "^0.141.0"
   },
   "devDependencies": {
     "prettier": "^2.6.2"
   },
   "keywords": [
-    "gatsby"
+    "blublock, nft, licensing, bored apes"
   ],
   "license": "0BSD",
   "scripts": {
@@ -37,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/rockstox/blublock-landing"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/rockstox/blublock-landing/issues"
   }
 }

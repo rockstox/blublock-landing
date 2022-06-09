@@ -9,7 +9,11 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Announcement from "./annoucement"
 import Header from "./header"
+import BG from "../images/hero-dark.jpg"
+import "@fontsource/montserrat"
+import "@fontsource/montserrat/600.css"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,7 +29,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Announcement></Announcement>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <div class="dark-bg">
+        <img src={BG} />
+      </div>
       <div
         style={{
           margin: `0 auto`,
@@ -42,7 +50,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()} &middot; Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.gatsbyjs.com">BluBlock</a>
         </footer>
       </div>
     </>
