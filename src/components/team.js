@@ -29,7 +29,7 @@ const Team = () => (
                 </div>
                 
             </div>
-            <div class="item">
+            <div class="item item-middle">
                 <StaticImage
                     src="../images/hunter-ape.png"
                     loading="eager"
