@@ -1,6 +1,12 @@
 $light-blue: #022BFF;
 $dark-blue: #000066;
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 54rem;
+}
+
 .announcement {
     display: flex;
     justify-content: center;
@@ -74,7 +80,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: calc( 100vh - 200px);
+        min-height: calc( 100vh - 120px);
         position: relative;
         overflow: hidden;
     }
@@ -134,12 +140,26 @@ header {
 .team {
     box-shadow: 0 0 0 1px rgb(255 255 255 / 10%), 0 34px 65px #040d21, 0 2.75px 2.21px rgb(0 0 0 / 7%), 0 6.65px 5.32px rgb(0 0 0 / 4%), 0 12.5px 10px rgb(0 0 0 / 3%), 0 22px 18px rgb(0 0 0 / 3%), 0 42px 33.4px rgb(0 0 0 / 2%), 0 100px 80px rgb(0 0 0 / 2%);
     border: 1px solid lighten(#0c162d, 40%);
-    border-radius: 6px;
-    padding: 35px;
-    background: $light-blue;
+    background: #fff;
+    position: relative;
+    color: black;
+    padding: 100px 35px;
+
+    .curve {
+        position: absolute;
+        top: -32px;
+        left: 0;
+        width: 100%;
+    }
 
     h2 {
         margin: 0 0 5px 0;
+        font-size: 2rem;
+
+        span {
+            color: $dark-blue;
+            font-weight: 600;
+        }
     }
 
     .team-desc {
@@ -151,18 +171,18 @@ header {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        margin: 35px 0 0 0;
     }
 
     .item {
-        width: 30%;
-        max-width: 218px;
-        background: white;
+        width: 32%;
+        box-shadow: 0 0 0 1px rgb(53 72 91 / 14%), 0 3px 2px rgb(0 0 0 / 4%), 0 7px 5px rgb(0 0 0 / 2%), 0 13px 10px rgb(0 0 0 / 2%), 0 22px 17px rgb(0 0 0 / 2%) !important;
         color: black;
         padding: 15px;
         border-radius: 6px;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
     }
 
@@ -174,5 +194,20 @@ header {
     .name {
         margin: 10px 0 0 0;
         font-weight: 600;
+    }
+
+    .socials {
+        margin: 10px 0 0 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        a {
+            margin: 0 10px 0 0;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
     }
 }

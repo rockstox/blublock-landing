@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
 import Team from "../components/team"
+import Future from "../components/future"
 import * as styles from "../components/index.module.css"
 import "../components/index.scss"
 
@@ -76,6 +77,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <Hero />
     <Team />
+    <Future />
     <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
