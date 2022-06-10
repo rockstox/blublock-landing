@@ -28,8 +28,7 @@ const Future = () => (
       </div>
       <div class="container">
         <h5>NFTs are media infrastructure.</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>- BluBlock</p>
+        <p>At BluBlock, we understand that web3 provides the opportunity for NFT holders to own their data and IP. This defining characteristic enables communities to finally profit from IP that they love and consume. Imagine if we could all own a piece of the Teenage Mutant Ninja Turtles and earn income every time the IP was licensed for apparel, toys, accessories, games, films, tv, and digital collectibles. With NFTs, we can.</p>
       </div>
   </div>
 )

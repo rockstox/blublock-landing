@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Announcement></Announcement>
+      {/* <Announcement></Announcement> */}
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div class="dark-bg">
         <img src={BG} />

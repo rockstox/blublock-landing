@@ -7,7 +7,7 @@ const Team = () => (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" preserveAspectRatio="none" viewBox="0 0 1680 40" class="curve"><path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path></svg>
       <div class="container">
           <h2>We are <span>BluBlock.</span></h2>
-          <p class="team-desc">NFT licensing requires a specific blend of legal, engineering, and media expertise.</p>
+          <p class="team-desc">The BluBlock team is a blend of media, engineering, and NFT experts. The team has closed over $500 MM+ in licensing deal flow.</p>
           <div class="grid">
             <div class="item">
                 <StaticImage
