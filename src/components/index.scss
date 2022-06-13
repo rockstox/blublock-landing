@@ -214,7 +214,7 @@ header {
 
     .grid {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
         margin: 35px 0 0 0;
@@ -230,10 +230,11 @@ header {
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
+        margin: 0 0 35px 0;
     }
 
     .item-middle {
-        margin: 0 15px;
+        margin: 0 15px 35px 15px;
     }
 
     p {
