@@ -76,7 +76,7 @@ function Seo({ description, lang, meta, title }) {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `BluBlock is infrastructure that enables web3 media licensing`,
 }
 
 Seo.propTypes = {

@@ -11,7 +11,7 @@ import "../components/index.scss"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="BluBlock - The future of NFT licensing" />
     <Hero />
     <Team />
     <Future />
