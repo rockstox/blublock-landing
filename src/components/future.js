@@ -3,25 +3,25 @@ const Future = () => (
   <div class="future">
       <div class="divider">
           <div class="inner">
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
-            <span>The Future of NFTs is Licensing</span>
+            <span>Web3 Will Power the Future of Licensing</span>
             <span>//</span>
 
           </div>
